@@ -1,5 +1,23 @@
 # @stargatefinance/stg-error-parser
 
+## 1.1.20
+
+### Patch Changes
+
+- 07d1916: Upgraded packages versions
+
+## 1.1.19
+
+### Patch Changes
+
+- e4f0996: Update packages
+
+## 1.1.18
+
+### Patch Changes
+
+- 4470c74: Plasma mainnet deployment
+
 ## 1.1.17
 
 ### Patch Changes

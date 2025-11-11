@@ -1,5 +1,38 @@
 # @stargatefinance/stg-devtools-v2
 
+## 7.0.2
+
+### Patch Changes
+
+- 07d1916: Upgraded packages versions
+- Updated dependencies [f02ef24]
+- Updated dependencies [07d1916]
+  - @stargatefinance/stg-definitions-v2@5.0.2
+
+## 7.0.1
+
+### Patch Changes
+
+- e4f0996: Update packages
+- Updated dependencies [8183d3e]
+- Updated dependencies [e4f0996]
+  - @stargatefinance/stg-definitions-v2@5.0.1
+
+## 7.0.0
+
+### Patch Changes
+
+- 4470c74: Plasma mainnet deployment
+- Updated dependencies [50a0da2]
+- Updated dependencies [67e21d9]
+- Updated dependencies [d5b0b2e]
+- Updated dependencies [175ec1e]
+- Updated dependencies [0047bbc]
+- Updated dependencies [4470c74]
+- Updated dependencies [e72e193]
+- Updated dependencies [dba67b5]
+  - @stargatefinance/stg-definitions-v2@5.0.0
+
 ## 6.0.0
 
 ### Major Changes

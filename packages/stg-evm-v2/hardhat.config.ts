@@ -193,6 +193,13 @@ const networks: NetworksUserConfig = {
         oneSigConfig: getOneSigConfig(EndpointId.APE_V2_MAINNET),
         timeout: DEFAULT_NETWORK_TIMEOUT,
     },
+    'apexfusionnexus-mainnet': {
+        eid: EndpointId.APEXFUSIONNEXUS_V2_MAINNET,
+        url: process.env.RPC_URL_APEXFUSIONNEXUS_MAINNET || 'https://rpc.nexus.mainnet.apexfusion.org',
+        accounts: mainnetAccounts,
+        oneSigConfig: getOneSigConfig(EndpointId.APEXFUSIONNEXUS_V2_MAINNET),
+        timeout: DEFAULT_NETWORK_TIMEOUT,
+    },
     'arbitrum-mainnet': {
         eid: EndpointId.ARBITRUM_V2_MAINNET,
         url: process.env.RPC_URL_ARBITRUM_MAINNET || 'https://arb1.arbitrum.io/rpc',
@@ -266,6 +273,13 @@ const networks: NetworksUserConfig = {
         oneSigConfig: getOneSigConfig(EndpointId.BSC_V2_MAINNET),
         timeout: DEFAULT_NETWORK_TIMEOUT,
     },
+    'camp-mainnet': {
+        eid: EndpointId.CAMP_V2_MAINNET,
+        url: process.env.RPC_URL_CAMP_MAINNET || 'https://rpc.camp.raas.gelato.cloud',
+        accounts: mainnetAccounts,
+        oneSigConfig: getOneSigConfig(EndpointId.CAMP_V2_MAINNET),
+        timeout: DEFAULT_NETWORK_TIMEOUT,
+    },
     'coredao-mainnet': {
         eid: EndpointId.COREDAO_V2_MAINNET,
         url: process.env.RPC_URL_COREDAO_MAINNET || 'https://rpc.coredao.org',
@@ -288,6 +302,13 @@ const networks: NetworksUserConfig = {
         accounts: mainnetAccounts,
         safeConfig: getSafeConfig(EndpointId.DEGEN_V2_MAINNET),
         oneSigConfig: getOneSigConfig(EndpointId.DEGEN_V2_MAINNET),
+        timeout: DEFAULT_NETWORK_TIMEOUT,
+    },
+    'doma-mainnet': {
+        eid: EndpointId.DOMA_V2_MAINNET,
+        url: process.env.RPC_URL_DOMA_MAINNET || 'https://doma.drpc.org',
+        accounts: mainnetAccounts,
+        oneSigConfig: getOneSigConfig(EndpointId.DOMA_V2_MAINNET),
         timeout: DEFAULT_NETWORK_TIMEOUT,
     },
     'edu-mainnet': {
@@ -503,6 +524,13 @@ const networks: NetworksUserConfig = {
         accounts: mainnetAccounts,
         safeConfig: getSafeConfig(EndpointId.NIBIRU_V2_MAINNET),
         oneSigConfig: getOneSigConfig(EndpointId.NIBIRU_V2_MAINNET),
+        timeout: DEFAULT_NETWORK_TIMEOUT,
+    },
+    'og-mainnet': {
+        eid: EndpointId.OG_V2_MAINNET,
+        url: process.env.RPC_URL_OG_MAINNET || 'https://evmrpc.0g.ai',
+        accounts: mainnetAccounts,
+        oneSigConfig: getOneSigConfig(EndpointId.OG_V2_MAINNET),
         timeout: DEFAULT_NETWORK_TIMEOUT,
     },
     'opbnb-mainnet': {
